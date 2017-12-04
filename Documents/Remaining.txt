@@ -1,0 +1,18 @@
+In find_floor.php page I have to check why Floor Number is not selecting when we are clicking on the Edit button .
+Complete Company Details
+
+Have to implement the while loop in the Office Location of the add_locker.php and based on that have to fetch the floor numbers using ajax .
+Have to complete the listing part of assign_locker.php page .
+
+
+office_admin.php -- Have to check the edit part of floor_number;
+
+
+
+$admin_id = base64_decode($_GET['admin']);
+$admin_floor_sql = "select * from office_admin_master where floor_id='$admin_id'";
+					$admin_floor_rec = mysql_query($admin_floor_sql);
+					$admin_floor_res = mysql_fetch_assoc($admin_floor_rec);
+					$floor_sql = "select * from floor_master where floor_id='$admin_floor_res[floor_id]'";
+					$floor_rec = mysql_query($floor_sql);
+					$floor_res = mysql_fetch_assoc($floor_rec);

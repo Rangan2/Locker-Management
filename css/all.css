@@ -1,0 +1,23 @@
+/* CSS Document */
+
+.index_outer_tab{
+border: 1px solid #C4C4C4; border-radius:5px; font-family:Tahoma; background-color:#DFDFDF}
+.btn{ border: 1px solid #666666; border-radius:5px; background-color:#6666FF; height: 25px; width:80px; cursor:pointer; font-family:Tahoma; font-size:16px; width:380px; height:35px; color:#FFFFFF}
+.inner_tab_index{ border:1px solid #C4C4C4; border-radius:5px; font-family:Tahoma; font-weight:bold; font-size:14px; background-color:#EAEAEA}
+.inner_tab_index_txt_box{ height:27px; border:1px solid #C4C4C4;border-radius:5px;}
+.inner_tab_index_login{ border: 1px solid #666666; border-radius:5px; background-color:#00C6C6; color:#FFFFFF; font-weight:normal; cursor:pointer}
+.index_heading{ font-family:Tahoma; font-size:36px}
+.index_heading_second_row{ font-family:Tahoma; font-size:24px}
+.logout{border: 1px solid #C4C4C4; border-radius:5px; background-color:#E4E4E4; font-family:Tahoma; cursor:pointer; font-size:14px}
+.session_name{ font-family:Tahoma;}
+.lsit_head{ font-family:Tahoma; font-size:18px; background-color:#FFA4A4}
+.list_sec_row{ font-family:Tahoma; font-size:14px; background-color:#C4C4FF}
+.list_dyn_row{ font-family:Tahoma; font-size:14px;}
+.dashboard_header{ font-family:Tahoma; font-size:12px; font-weight:bold; cursor:pointer}
+.dashboard_header_menu_bacground{ background-color:#E9E9E9}
+.dashboard_sider{ font-family:Tahoma; font-size:12px; background-color:#E9E9E9; cursor:pointer}
+.dashboard_header_coompany_name{ font-family:Tahoma; font-size:24px; color:#9E9E9E}
+.dashboard_mid_row_tab{ border:1px solid #D8D8D8}
+.dashboard_inner_tab{ border:1px solid #D8D8D8; border-radius:5px; background-color:#F4F4F4}
+.dashboard_all_menu{ border:1px solid #000000;font-family:Tahoma; font-size:12px; font-weight:900; background-color:#E9E9E9; color:#7D7D7D; cursor:pointer}
+#clock { font-family:Tahoma; font-size:12px; color:#999999}
