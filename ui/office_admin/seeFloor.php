@@ -1,0 +1,23 @@
+<?php
+include "../connection/connection.php";
+include "include/chk_login.php";
+    if(@$_GET['officId'])
+    {
+        $sql = "select * from floor_master where office_id=$_GET[officId]";
+       // echo $sql;
+        $rec = mysql_query($sql);
+    }
+    //echo @$floor_master_fetch_res['floor_id'];
+?>
+<label for="fnum">Select Floor Number</label>
+<select name="floornum" class="form-control" id="floornum" style=" width:40.5em"  onclick="find_locker()">
+  <option value="0">... Select ...</option>
+  <?php
+    while($res = mysql_fetch_assoc($rec))
+    {
+  ?>
+  <option value="<?php echo $res['floor_id'];?>"><?php if($res['floor_number'] == 0){echo "All";}else{ echo $res['floor_number'];}?></option>
+  <?php
+    }
+  ?>
+</select>
