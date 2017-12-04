@@ -1,0 +1,206 @@
+/** {
+   outline: 1px solid red !important;
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.indexImage{
+   width: 1650px;
+   text-align: center;
+   height: 547px;
+   top: 0px;
+   left: -280px;
+   position: absolute;
+   opacity: 0px;
+   white-space: nowrap;
+}
+
+.pac-container {
+    background-color: #FFF;
+    z-index: 20;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+.modal{
+    z-index: 20;
+}
+.modal-backdrop{
+    z-index: 10;
+}​
+
+.indexImageOfficeAdmin{
+  padding-left: 15em;
+}
+
+.text{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  left: 30em;
+  top: 25em;
+}
+
+.login{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  left: 30em;
+  top: 27em;
+  width: 8em;
+}
+
+.signup{
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  left: 40.5em;
+  top: 27em;
+  width: 8em;
+}
+
+.featureAddOffice{
+    color: #fff;
+    width: 70em;
+    margin:40.5em 0 3em 15em;
+    border-radius: 5px;
+    box-shadow: 8px 8px 4px #c4c4c4;
+}
+.featureAddOfficeAdmin{
+    margin-top: 10px;
+    color: #fff;
+    width: 70em;
+    margin:0em 0 3em 15em;
+    border-radius: 5px;
+    box-shadow: 8px 8px 4px #c4c4c4;
+}
+
+.featureTrackDetails{
+    color: #fff;
+    width: 70em;
+    margin:0em 0 3em 15em;
+    border-radius: 5px;
+    box-shadow: 8px 8px 4px #c4c4c4;
+}
+
+.dashboardSider{
+    background-color: #CB9FEA;
+    height: 5em;
+    border: 1px solid #CB9FEA;
+    color: white;
+}
+
+.dashboardNavSider{
+    background-color: #484848;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.dashboardOuterDiv{
+    background-color: #484848;
+    border: 1px solid #282828;
+    width: 93em;
+    box-shadow: 5px 5px 5px #282828;
+    margin: 4em 1em 1em 1em;
+}
+
+.dashboardInnerDiv{
+    background-color: #E8E8E8;
+    border: 1px solid #DDD;
+    margin: 3em 8em 0 8em;
+    min-height: 30em;
+}
+
+.dashboardHead{
+    height: 5em;
+    background-color: white;
+    padding: 1.2em 0 0 4em;
+    display: flex;
+}
+.optionsImage{
+    margin: 0 0 5em 39em;
+    cursor: pointer;
+}
+.lockerAssigned{
+    height: 16em;
+    background-color: white;
+    margin: 2em 0 0 0;
+
+}
+
+.featuresDiv{
+    background-color: white;
+   /* margin: 2em 0 0 2em;
+    width: 39em;*/
+}
+
+.featureHeader{
+    color: #ccc;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+}
+.features{
+   /* padding: 1em 0 0 1em;*/
+   background-color: white;
+    color: #505050;
+    font-size: 0.7em;
+    font-family: 'Play', sans-serif;
+    box-shadow: 4px 4px 4px 5px #c4c4c4;
+}
+
+.outer_border {
+    width: 350px;
+    border: 1px solid #cccccc;
+    box-shadow: 10px 10px 5px #cccccc;
+    padding: 0.4em;
+    margin: 2em 1em 0 0;
+}
+
+.anchor{
+  text-decoration: none;
+  color: white;
+}
+
+.modalHeader{
+    background-color: #C70039;
+    color: white;
+    font-size: 12px;
+}
+
+.headerAddOffice{
+  height: 3em;
+  background-color: #C70039;
+  font-size: 1.2em;
+  padding-top: 0.8em;
+  padding-left: 1em;
+  color: white;
+  margin: 2em 0 1em 6em;
+
+}
+
+.addOfficeBody{
+   padding-top: 0em;
+  padding-left: 1em;
+   color: black;
+   margin: 2em 0 1em 6em;
+   width: 43em;
+}
+
+.viewOfficeTabHeader{
+  font-weight: bold;
+}
